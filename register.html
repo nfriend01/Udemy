@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Register</title>
+</head>
+<body>
+	<!-- Use GET, not POST -->
+	<form method="GET">
+		First Name: <input type="text" name="firstname"><br>
+		Last Name: <input type="text" name="lastname"><br>
+		Email: <input type="email" name="email" required><br>
+		Password: <input type="password" name="password" minlength="5"><br>
+		Birthday: <input type="date" name="date"><br>
+		Gender:<br>
+		<input type="radio" name="gender" value="Male">Male<br>
+		<input type="radio" name="gender" value="Female">Female<br>
+		<input type="radio" name="gender" value="Other">Other<br>
+		Spectator: <br>
+		<input type="checkbox" name="yes"> Yes<br>
+		<input type="checkbox" name="no"> No<br>
+		Team: <br>
+		<select name="team">
+			<option value="with a team" name="with a team">With a team</option>
+			<option value="not with a team" name="not with a team">Not with a team</option>
+		</select><br>
+		<input type="submit" value="Register!">
+		<input type="reset">
+	</form>
+</body><br><br>
+	<footer>
+		<a href="firstwebpage.html">Go Back!</a><hr><br>
+	</footer>
+</html> 
